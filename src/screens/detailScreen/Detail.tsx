@@ -1,4 +1,4 @@
-import { CottageSharp } from '@mui/icons-material';
+
 import * as React from 'react';
 import { useParams } from 'react-router-dom';
 import ComicList from '../../components/comisList';
