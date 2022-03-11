@@ -1,8 +1,7 @@
 import * as React from 'react';
 import ChatertorCard from '../../components/charectorCard';
 import InfiniteScroll from "react-infinite-scroll-component";
-import { Grid } from '@mui/material';
-import { height, padding } from '@mui/system';
+
 import './Home.css'
 import { useAppDispatch, useAppSelector } from '../../store/hooks';
 import { getCharacterList, getCharacters } from '../../store/features/characterSlice';
