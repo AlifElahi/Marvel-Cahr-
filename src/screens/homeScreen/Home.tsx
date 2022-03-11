@@ -1,5 +1,5 @@
 import * as React from 'react';
-import ChatertorCard from '../../components/card';
+import ChatertorCard from '../../components/charectorCard';
 import InfiniteScroll from "react-infinite-scroll-component";
 import { Grid } from '@mui/material';
 import { height, padding } from '@mui/system';

@@ -2,7 +2,7 @@
 
 import { ExtendedComicBookType } from '../types/ComicBookType';
 import { Box, Grid } from '@mui/material';
-import Comic from './comic';
+import Comic from './comicCard';
 
 const ComicList = ({ comics }: { comics: ExtendedComicBookType[] }) => {
     return (
