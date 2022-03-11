@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 
-Add .env file before star
+##Add .env file before start
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
