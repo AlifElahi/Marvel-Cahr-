@@ -1,6 +1,5 @@
 
 import './App.css';
-import SearchAppBar from './components/appbar';
 import Footer from './components/footer';
 import {
   Routes,
@@ -8,11 +7,12 @@ import {
 } from "react-router-dom";
 import Home from './screens/homeScreen/Home';
 import Details from './screens/detailScreen/Detail';
+import Header from './components/appbar';
 
 function App() {
   return (
     <div className='App'>
-      <SearchAppBar />
+      <Header/>
      
         <Routes>
           <Route path="/" element={<Home />} />

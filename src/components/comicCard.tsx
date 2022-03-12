@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import { ExtendedComicBookType } from '../types/ComicBookType';
 
-const Comic = ({
+const ComicCard = ({
     id,
     title,
     pageCount,
@@ -61,4 +61,4 @@ const Comic = ({
     );
 }
 
-export default Comic
+export default ComicCard

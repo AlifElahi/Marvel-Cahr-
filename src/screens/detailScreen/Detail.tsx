@@ -1,7 +1,7 @@
 
 import * as React from 'react';
 import { useParams } from 'react-router-dom';
-import ComicList from '../../components/comisList';
+import ComicList from '../../components/comicList';
 import * as CharacterService from "../../services/Character/CharacterService";
 import { CharacterType } from '../../types/CharacterType';
 import { ExtendedComicBookType } from '../../types/ComicBookType';

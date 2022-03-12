@@ -1,5 +1,5 @@
 import * as React from 'react';
-import ChatertorCard from '../../components/charectorCard';
+import CharacterCard from '../../components/characterCard';
 import InfiniteScroll from "react-infinite-scroll-component";
 
 import './Home.css'
@@ -34,7 +34,7 @@ export default function Home() {
             >
                 {results.map((x, index) =>
 
-                    <ChatertorCard {...x} key={index}/>
+                    <CharacterCard {...x} key={index}/>
 
                 )}
             </InfiniteScroll>

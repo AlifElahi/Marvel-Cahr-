@@ -7,8 +7,8 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Link } from "react-router-dom";
 import { CharacterType } from "../types/CharacterType";
-import "./card.css"
-const ChatertorCard = ({
+import "./characterCard.css"
+const CharacterCard = ({
     id,
     name,
     description,
@@ -52,4 +52,4 @@ const ChatertorCard = ({
 }
 
 
-export default ChatertorCard
+export default CharacterCard

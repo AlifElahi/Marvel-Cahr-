@@ -2,7 +2,7 @@
 
 import { ExtendedComicBookType } from '../types/ComicBookType';
 import { Box, Grid } from '@mui/material';
-import Comic from './comicCard';
+import ComicCard from './comicCard';
 
 const ComicList = ({ comics }: { comics: ExtendedComicBookType[] }) => {
     return (
@@ -11,7 +11,7 @@ const ComicList = ({ comics }: { comics: ExtendedComicBookType[] }) => {
             <Grid container rowSpacing={1} justifyContent="center" columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                 {comics?.map((comic, i) => (
                     <Grid item xs={6}>
-                        <Comic key={i} {...comic} />
+                        <ComicCard key={i} {...comic} />
                     </Grid>
 
                 ))}
