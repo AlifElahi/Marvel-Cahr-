@@ -19,9 +19,8 @@ const ComicCard = ({
         dates.find((date) => date.type === "onsaleDate")?.date
     );
     return (
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 345}}>
             <a
-
                 href={urls.find((url) => url.type === "detail")?.url}
                 target="_blank"
                 rel="noreferrer"
@@ -49,10 +48,6 @@ const ComicCard = ({
                         <Typography variant="body2" color="text.secondary">
                             Page count : {pageCount || "-"}
                         </Typography>
-
-
-
-
 
                     </CardContent>
                 </CardActionArea>
