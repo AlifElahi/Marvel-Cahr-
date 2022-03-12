@@ -1,10 +1,8 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import { RootState } from "../store";
 
-//services
 import * as CharacterService from "../../services/Character/CharacterService";
 
-//types
 import { CharacterType } from "../../types/CharacterType";
 
 export type CharacterState = {
