@@ -1,5 +1,5 @@
 import * as React from 'react';
-import CharacterCard from '../../components/characterCard';
+import CharacterCard from '../../components/charaterCard/characterCard';
 import InfiniteScroll from "react-infinite-scroll-component";
 
 import './Home.css'
