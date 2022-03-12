@@ -14,11 +14,11 @@ export default function Footer() {
         // </div>
         <Box sx={{ flexGrow: 1, position: 'fixed', bottom: 0, width: '100%' }}>
             <AppBar position="static" style={{ display: "flex", justifyContent: "center" }} >
-                {/* <Toolbar style={{display: "flex", justifyContent: "center" }} > */}
+                
                 <Typography variant="h6" color="inherit" component="div">
                     App Game
                 </Typography>
-                {/* </Toolbar> */}
+           
             </AppBar>
         </Box>
     );
